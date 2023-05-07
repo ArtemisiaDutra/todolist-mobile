@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+import 'homeState.dart';
+// import 'login.dart';
+
+void main () {
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.purple),
+    ),
+  );
+}
+
+
+
